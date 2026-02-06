@@ -1,0 +1,16 @@
+{
+  "title": "Intelligent Multi-Agent Analysis",
+  "text": "Event Horizon combines the power of multiple specialized AI agents working in parallel to provide comprehensive market analysis. Built with React 19 and modern AI technologies.",
+  "section": [
+    {
+      "title": "5 Specialized Data Agents",
+      "content": "Our system deploys five specialized agents - Candlestick, Earnings, News, Technical, and Fundamentals - each focusing on specific data types to provide comprehensive market insights.",
+      "icon": "graphs.svg"
+    },
+    {
+      "title": "Flexible LLM Support",
+      "content": "Choose from multiple AI providers including OpenAI (GPT-4o, O1, O3), Anthropic (Claude), Google (Gemini), or run models locally with Ollama and vLLM.",
+      "icon": "product-launch.svg"
+    }
+  ]
+}
