@@ -1,3 +1,4 @@
+/*disable eslint*/
 import { Row, Col } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
