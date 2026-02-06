@@ -1,6 +1,9 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "event-horizon-landing",
+  "version": "1.0.0",
+  "description": "Event Horizon - Multi-Agent AI Trading Platform Landing Page",
+  "author": "Event Horizon Team",
+  "homepage": "https://fe-chi-opal.vercel.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.0.0",

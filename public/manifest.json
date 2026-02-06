@@ -1,6 +1,6 @@
 {
-  "short_name": "Landy",
-  "name": "Landy - React Template",
+  "short_name": "Event Horizon",
+  "name": "Event Horizon - AI Trading Platform",
   "icons": [
     {
       "src": "img/icons/logo192.png",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0080FF",
+  "background_color": "#ffffff",
+  "description": "Multi-Agent AI Trading Platform for comprehensive market analysis"
 }
