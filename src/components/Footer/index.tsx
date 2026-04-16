@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Have questions about our AI trading platform?`)}
               </Para>
-              <a href="https://fe-chi-opal.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://evth.hirolab.space/" target="_blank" rel="noopener noreferrer">
                 <Chat>{t(`Open App`)}</Chat>
               </a>
             </Col>
@@ -68,7 +68,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large to="/" onClick={() => document.getElementById("mission")?.scrollIntoView({ behavior: 'smooth' })}>{t("Mission")}</Large>
-              <Large href="https://fe-chi-opal.vercel.app/" target="_blank" rel="noopener noreferrer" as="a">{t("Documentation")}</Large>
+              <Large href="https://evth.hirolab.space/" target="_blank" rel="noopener noreferrer" as="a">{t("Documentation")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">
@@ -129,7 +129,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://fe-chi-opal.vercel.app/"
+                href="https://evth.hirolab.space/"
                 src="github.svg"
               />
             </FooterContainer>

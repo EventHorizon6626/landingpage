@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Event Horizon - Multi-Agent AI Trading Platform Landing Page",
   "author": "Event Horizon Team",
-  "homepage": "https://fe-chi-opal.vercel.app/",
+  "homepage": "https://home-evth.hirolab.space/",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.0.0",

@@ -66,7 +66,7 @@ const ContentBlock = ({
                             color={item.color}
                             onClick={() => {
                               if (item.title === "Get Started" || item.title === "Explore") {
-                                window.open("https://fe-chi-opal.vercel.app/", "_blank");
+                                window.open("https://evth.hirolab.space/", "_blank");
                               } else {
                                 scrollTo("about");
                               }

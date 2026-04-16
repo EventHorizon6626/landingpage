@@ -44,7 +44,7 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => window.open("https://fe-chi-opal.vercel.app/", "_blank")}
+          onClick={() => window.open("https://evth.hirolab.space/", "_blank")}
         >
           <Span>
             <Button>{t("Open App")}</Button>
