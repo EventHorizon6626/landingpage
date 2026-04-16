@@ -56,37 +56,28 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Have questions about our AI trading platform?`)}
               </Para>
-              <a href="https://evth.hirolab.space/" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://evth.hirolab.space/" target="_blank" rel="noopener noreferrer">
                 <Chat>{t(`Open App`)}</Chat>
-              </a>
+              </a> */}
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Product")}</Title>
               <Large to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{t("Features")}</Large>
               <Large to="/" onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: 'smooth' })}>{t("About")}</Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large to="/" onClick={() => document.getElementById("mission")?.scrollIntoView({ behavior: 'smooth' })}>{t("Mission")}</Large>
               <Large href="https://evth.hirolab.space/" target="_blank" rel="noopener noreferrer" as="a">{t("Documentation")}</Large>
-            </Col>
+            </Col> */}
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Event Horizon")}</Language>
-              <Para>Multi-Agent AI Trading Platform</Para>
-              <Para>Powered by Advanced AI Technology</Para>
               <Para>© 2026 Event Horizon</Para>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Technology")}</Title>
-              <Large to="/">{t("OpenAI GPT-4")}</Large>
-              <Large to="/">{t("Claude AI")}</Large>
-              <Large to="/">{t("React 19")}</Large>
-              <Large to="/">{t("Real-time Analysis")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -106,7 +97,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </FooterSection>
